@@ -1,0 +1,16 @@
+{
+  "types": {
+    "Log": {
+      "description": "Log something",
+      "title": "Save Log"
+    },
+    "Bookmark": {
+      "description": "bookmark a link",
+      "title": "Save Bookmark"
+    },
+    "--exclude": {
+      "description": "do not show this message",
+      "title": "Exclude"
+    }
+  }
+}

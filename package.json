@@ -1,0 +1,28 @@
+{
+  "name": "@specone/journal-log",
+  "version": "0.0.1",
+  "description": "Commitizen adapter for creating a journal.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo 'Tests need to be setup!'",
+    "release": "standard-version"
+  },
+  "author": "Poltergeist <spectator.networx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.map": "^4.5.1",
+    "longest": "^1.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
